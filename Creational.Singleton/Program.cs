@@ -1,4 +1,5 @@
 ﻿using Creational.Singleton.DesignPatters;
+using Creational.Singleton.Model;
 
 namespace Creational.Singleton;
 
@@ -15,6 +16,7 @@ class Program
         await Task.Delay(delay);
         var secondPortionOfPierogi = PierogiSingleton.Instance.ServePierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup();
         Console.WriteLine($"{secondPortionOfPierogi}, aaaah what is this sacrilege? :O");
+        Console.WriteLine($"Plates served: {PierogiSingleton.Instance.PlatesServed}");
         await Task.Delay(delay);
     }
     
