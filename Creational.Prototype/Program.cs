@@ -2,7 +2,7 @@
 
 namespace Creational.Prototype;
 
-class Program
+sealed class Program
 {
     public static void Main()
     {
@@ -13,6 +13,5 @@ class Program
         firstPortion.Count = 5;
         Console.WriteLine(firstPortion);
         Console.WriteLine(secondPortion);
-
     }
 }

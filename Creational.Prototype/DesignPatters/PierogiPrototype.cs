@@ -4,24 +4,25 @@ namespace Creational.Prototype.DesignPatters;
 
 public abstract class PierogiPrototype
 {
-    public Guid Guid { get; }
-    public int Count { set; get; }
-    public string Type { get; set; }
-    
     public PierogiPrototype(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
     }
-    
+
+    public Guid Guid { get; }
+    public int Count { set; get; }
+    public string Type { get; set; }
+
     public abstract PierogiPrototype Clone();
+
     public override string ToString()
     {
         return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
 
-public class PierogiWithPotatoesAndCheese : PierogiPrototype
+public sealed class PierogiWithPotatoesAndCheese : PierogiPrototype
 {
     public PierogiWithPotatoesAndCheese(int count) : base(count)
     {
@@ -34,7 +35,7 @@ public class PierogiWithPotatoesAndCheese : PierogiPrototype
     }
 }
 
-public class PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup : PierogiPrototype
+public sealed class PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup : PierogiPrototype
 {
     public PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup(int count) : base(count)
     {
@@ -47,7 +48,7 @@ public class PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup : PierogiP
     }
 }
 
-public class PierogiWithStrawberries : PierogiPrototype
+public sealed class PierogiWithStrawberries : PierogiPrototype
 {
     public PierogiWithStrawberries(int count) : base(count)
     {
@@ -60,7 +61,7 @@ public class PierogiWithStrawberries : PierogiPrototype
     }
 }
 
-public class PierogiWithMeat : PierogiPrototype
+public sealed class PierogiWithMeat : PierogiPrototype
 {
     public PierogiWithMeat(int count) : base(count)
     {
@@ -73,7 +74,7 @@ public class PierogiWithMeat : PierogiPrototype
     }
 }
 
-public class PierogiWithGroat : PierogiPrototype
+public sealed class PierogiWithGroat : PierogiPrototype
 {
     public PierogiWithGroat(int count) : base(count)
     {
@@ -86,7 +87,7 @@ public class PierogiWithGroat : PierogiPrototype
     }
 }
 
-public class PierogiWithCabbage : PierogiPrototype
+public sealed class PierogiWithCabbage : PierogiPrototype
 {
     public PierogiWithCabbage(int count) : base(count)
     {
@@ -99,7 +100,7 @@ public class PierogiWithCabbage : PierogiPrototype
     }
 }
 
-public class PierogiWithBlueberries : PierogiPrototype
+public sealed class PierogiWithBlueberries : PierogiPrototype
 {
     public PierogiWithBlueberries(int count) : base(count)
     {
