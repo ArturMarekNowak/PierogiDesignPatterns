@@ -1,4 +1,4 @@
-﻿using Creational.Singleton.Interfaces;
+using Creational.Singleton.Interfaces;
 using Creational.Singleton.Model;
 
 namespace Creational.Singleton.DesignPatters;
