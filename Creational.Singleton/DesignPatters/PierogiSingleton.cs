@@ -18,42 +18,42 @@ public sealed class PierogiSingleton : IPierogi
     public Pierogi ServePierogiWithPotatoesAndCheese()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithPotatoesAndCheese);
+        return new Pierogi(10, PierogiTypes.WithPotatoesAndCheese);
     }
 
     public Pierogi ServePierogiWithGroat()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithGroat);
+        return new Pierogi(10, PierogiTypes.WithGroat);
     }
 
     public Pierogi ServePierogiWithCabbage()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithCabbage);
+        return new Pierogi(10, PierogiTypes.WithCabbage);
     }
 
     public Pierogi ServePierogiWithMeat()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithMeat);
+        return new Pierogi(10, PierogiTypes.WithMeat);
     }
 
     public Pierogi ServePierogiWithStrawberries()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithStrawberries);
+        return new Pierogi(10, PierogiTypes.WithStrawberries);
     }
 
     public Pierogi ServePierogiWithBlueberries()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithBlueberries);
+        return new Pierogi(10, PierogiTypes.WithBlueberries);
     }
 
     public Pierogi ServePierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup()
     {
         PlatesServed += 1;
-        return new Pierogi(Guid.NewGuid(), 10, PierogiTypes.WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup);
+        return new Pierogi(10, PierogiTypes.WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup);
     }
 }
