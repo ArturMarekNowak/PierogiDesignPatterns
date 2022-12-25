@@ -13,9 +13,8 @@ This repository contains implementations design patterns and uses preparement of
 ## General info
 Repository is structured as a solution containing multiple projects. Each project represents different design pattern.
 
-    .
-    ├── Creational.Prototype    # Code review stack exchange [link](https://codereview.stackexchange.com/questions/282143/prototype-design-pattern)
-    └── Creational.Singleton    # Code review stack exchange [link](https://codereview.stackexchange.com/questions/282141/singleton-design-pattern)
+* Creational.Prototype - Code review stack exchange [link](https://codereview.stackexchange.com/questions/282143/prototype-design-pattern)
+* Creational.Singleton - Code review stack exchange [link](https://codereview.stackexchange.com/questions/282141/singleton-design-pattern)
 
 
 ## Technologies
