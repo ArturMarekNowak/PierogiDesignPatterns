@@ -4,9 +4,9 @@ public sealed class Pierogi
 {
     public Guid Guid { get; }
     public int Count { get; }
-    public string Type { get; }
-    
-    public Pierogi(int count, string type)
+    public PierogiTypes Type { get; }
+
+    public Pierogi(int count, PierogiTypes type)
     {
         Guid = Guid.NewGuid();
         Count = count;

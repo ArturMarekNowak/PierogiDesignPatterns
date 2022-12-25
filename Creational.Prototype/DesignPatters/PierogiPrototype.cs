@@ -12,7 +12,7 @@ public abstract class PierogiPrototype
 
     public Guid Guid { get; }
     public int Count { set; get; }
-    public string Type { get; set; }
+    public PierogiTypes Type { get; set; }
 
     public abstract PierogiPrototype Clone();
 

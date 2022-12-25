@@ -3,15 +3,15 @@ using Creational.Singleton.Model;
 
 namespace Creational.Singleton.DesignPatters;
 
-public sealed class PierogiSingleton : IPierogi
+public sealed class PierogiRestaurant : IPierogi
 {
-    private static readonly Lazy<PierogiSingleton> LazyInstance = new(() => new PierogiSingleton());
+    private static readonly Lazy<PierogiRestaurant> LazyInstance = new(() => new PierogiRestaurant());
 
-    public static PierogiSingleton Instance => LazyInstance.Value;
+    public static PierogiRestaurant Instance => LazyInstance.Value;
     public static bool IsInstanceCreated => LazyInstance.IsValueCreated;
     public int PlatesServed = 0;
 
-    private PierogiSingleton()
+    private PierogiRestaurant()
     {
     }
 

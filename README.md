@@ -1,5 +1,5 @@
 # Pierogi Design Patterns
-This repository contains implementations design patterns and uses preparment of polish traditional dish - pierogi, as an example.
+This repository contains implementations design patterns and uses preparement of polish traditional dish - pierogi, as an example.
 
 
 ## Table of contents
@@ -11,7 +11,10 @@ This repository contains implementations design patterns and uses preparment of 
 
 
 ## General info
-Repository is structured as a solution containing multiple projects. Each project represents different design pattern. 
+Repository is structured as a solution containing multiple projects. Each project represents different design pattern.
+    .
+    ├── Creational.Prototype    # Code review stack exchange [link](https://codereview.stackexchange.com/questions/282143/prototype-design-pattern)
+    └── Creational.Singleton    # Code review stack exchange [link](https://codereview.stackexchange.com/questions/282141/singleton-design-pattern)
 
 
 ## Technologies
@@ -28,4 +31,4 @@ Project is: _in_progress_
 
 
 ## Inspiration
-My inspiration was my friend [Voprzybyo](https://github.com/Voprzybyo) which prepares pierogi in truly barbarian way - with ketchup and yoghtgurt :ᗡ 
+My inspiration is my friend [Voprzybyo](https://github.com/Voprzybyo) who prepares pierogi in truly barbarian way - with ketchup and yogurt :ᗡ 
