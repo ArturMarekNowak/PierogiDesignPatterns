@@ -2,19 +2,33 @@
 
 namespace Creational.Prototype.DesignPatters;
 
-public abstract class PierogiPrototype
+public interface IPierogiPrototype
 {
-    public PierogiPrototype(int count)
-    {
-        Guid = Guid.NewGuid();
-        Count = count;
-    }
-
     public Guid Guid { get; }
     public int Count { set; get; }
     public PierogiTypes Type { get; set; }
 
-    public abstract PierogiPrototype Clone();
+    public abstract IPierogiPrototype Clone();
+    public string ToString();
+}
+
+public sealed class PierogiWithPotatoesAndCheese : IPierogiPrototype
+{
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithPotatoesAndCheese(int count)
+    {
+        Guid = Guid.NewGuid();
+        Count = count;
+        Type = PierogiTypes.WithPotatoesAndCheese;
+    }
+
+    public IPierogiPrototype Clone()
+    {
+        return (IPierogiPrototype)MemberwiseClone();
+    }
 
     public override string ToString()
     {
@@ -22,93 +36,146 @@ public abstract class PierogiPrototype
     }
 }
 
-public sealed class PierogiWithPotatoesAndCheese : PierogiPrototype
+public sealed class PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup : IPierogiPrototype
 {
-    public PierogiWithPotatoesAndCheese(int count) : base(count)
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup(int count)
     {
-        Type = PierogiTypes.WithPotatoesAndCheese;
-    }
-
-    public override PierogiPrototype Clone()
-    {
-        return (PierogiPrototype)MemberwiseClone();
-    }
-}
-
-public sealed class PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup : PierogiPrototype
-{
-    public PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup(int count) : base(count)
-    {
+        Guid = Guid.NewGuid();
+        Count = count;
         Type = PierogiTypes.WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup;
     }
 
-    public override PierogiPrototype Clone()
+    public IPierogiPrototype Clone()
     {
-        return (PierogiPrototype)MemberwiseClone();
+        return (IPierogiPrototype)MemberwiseClone();
+    }
+
+    public override string ToString()
+    {
+        return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
 
-public sealed class PierogiWithStrawberries : PierogiPrototype
+public sealed class PierogiWithStrawberries : IPierogiPrototype
 {
-    public PierogiWithStrawberries(int count) : base(count)
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithStrawberries(int count)
     {
+        Guid = Guid.NewGuid();
+        Count = count;
         Type = PierogiTypes.WithStrawberries;
     }
 
-    public override PierogiPrototype Clone()
+    public IPierogiPrototype Clone()
     {
-        return (PierogiPrototype)MemberwiseClone();
+        return (IPierogiPrototype)MemberwiseClone();
+    }
+
+    public override string ToString()
+    {
+        return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
 
-public sealed class PierogiWithMeat : PierogiPrototype
+public sealed class PierogiWithMeat : IPierogiPrototype
 {
-    public PierogiWithMeat(int count) : base(count)
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithMeat(int count)
     {
+        Guid = Guid.NewGuid();
+        Count = count;
         Type = PierogiTypes.WithMeat;
     }
 
-    public override PierogiPrototype Clone()
+    public IPierogiPrototype Clone()
     {
-        return (PierogiPrototype)MemberwiseClone();
+        return (IPierogiPrototype)MemberwiseClone();
+    }
+
+    public override string ToString()
+    {
+        return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
 
-public sealed class PierogiWithGroat : PierogiPrototype
+public sealed class PierogiWithGroat : IPierogiPrototype
 {
-    public PierogiWithGroat(int count) : base(count)
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithGroat(int count)
     {
+        Guid = Guid.NewGuid();
+        Count = count;
         Type = PierogiTypes.WithGroat;
     }
 
-    public override PierogiPrototype Clone()
+    public IPierogiPrototype Clone()
     {
-        return (PierogiPrototype)MemberwiseClone();
+        return (IPierogiPrototype)MemberwiseClone();
+    }
+
+    public override string ToString()
+    {
+        return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
 
-public sealed class PierogiWithCabbage : PierogiPrototype
+public sealed class PierogiWithCabbage : IPierogiPrototype
 {
-    public PierogiWithCabbage(int count) : base(count)
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithCabbage(int count)
     {
+        Guid = Guid.NewGuid();
+        Count = count;
         Type = PierogiTypes.WithCabbage;
     }
 
-    public override PierogiPrototype Clone()
+    public IPierogiPrototype Clone()
     {
-        return (PierogiPrototype)MemberwiseClone();
+        return (IPierogiPrototype)MemberwiseClone();
+    }
+
+    public override string ToString()
+    {
+        return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
 
-public sealed class PierogiWithBlueberries : PierogiPrototype
+public sealed class PierogiWithBlueberries : IPierogiPrototype
 {
-    public PierogiWithBlueberries(int count) : base(count)
+    public Guid Guid { get; }
+    public int Count { get; set; }
+    public PierogiTypes Type { get; set; }
+    
+    public PierogiWithBlueberries(int count)
     {
+        Guid = Guid.NewGuid();
+        Count = count;
         Type = PierogiTypes.WithBlueberries;
     }
 
-    public override PierogiPrototype Clone()
+    public IPierogiPrototype Clone()
     {
-        return (PierogiPrototype)MemberwiseClone();
+        return (IPierogiPrototype)MemberwiseClone();
+    }
+
+    public override string ToString()
+    {
+        return $"Guid: {Guid}, Count: {Count}, Type: {Type}";
     }
 }
