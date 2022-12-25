@@ -8,7 +8,7 @@ public interface IPierogiPrototype
     public int Count { set; get; }
     public PierogiTypes Type { get; set; }
 
-    public abstract IPierogiPrototype Clone();
+    public IPierogiPrototype Clone();
     public string ToString();
 }
 
