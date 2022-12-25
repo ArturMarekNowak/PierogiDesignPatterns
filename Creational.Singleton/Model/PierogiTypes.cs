@@ -1,12 +1,27 @@
-﻿namespace Creational.Singleton.Model;
+﻿using System.ComponentModel;
 
-public static class PierogiTypes
+namespace Creational.Singleton.Model;
+
+public enum PierogiTypes
 {
-    public const string WithPotatoesAndCheese = "with potatoes and cheese";
-    public const string WithGroat = "with groat";
-    public const string WithCabbage = "with cabbage";
-    public const string WithMeat = "with meat";
-    public const string WithStrawberries = "with strawberries";
-    public const string WithBlueberries = "with blueberries";
-    public const string WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup = "with potatoes and cheese but also with yoghurt and ketchup";
+    [Description("with potatoes and cheese")]
+    WithPotatoesAndCheese,
+
+    [Description("with groat")]
+    WithGroat,
+
+    [Description("with cabbage")]
+    WithCabbage,
+
+    [Description("with meat")]
+    WithMeat,
+
+    [Description("with strawberries")]
+    WithStrawberries,
+
+    [Description("with blueberries")]
+    WithBlueberries,
+
+    [Description("with potatoes and cheese but also with yoghurt and ketchup")]
+    WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup,
 }
