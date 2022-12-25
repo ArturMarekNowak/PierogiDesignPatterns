@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Singleton", "Cre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Prototype", "Creational.Prototype\Creational.Prototype.csproj", "{2DE91C34-8800-4F65-BA3A-7E340FCF619C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Factory", "Creational.Factory\Creational.Factory.csproj", "{754E3FAA-879E-479A-A9C3-BF795747A273}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.FactoryMethod", "Creational.FactoryMethod\Creational.FactoryMethod.csproj", "{754E3FAA-879E-479A-A9C3-BF795747A273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
