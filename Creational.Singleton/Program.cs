@@ -1,4 +1,4 @@
-﻿using Creational.Singleton.DesignPatterns;
+﻿using Creational.Singleton.DesignPattern;
 
 namespace Creational.Singleton;
 

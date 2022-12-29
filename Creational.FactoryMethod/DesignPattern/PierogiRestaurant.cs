@@ -1,7 +1,7 @@
 ﻿using Creational.Factory.Interfaces;
 using Creational.Factory.Model;
 
-namespace Creational.Factory.DesignPatterns;
+namespace Creational.Factory.DesignPattern;
 
 public abstract class PierogiRestaurant
 {

@@ -1,4 +1,4 @@
-﻿using Creational.Prototype.DesignPatterns;
+﻿using Creational.Prototype.DesignPattern;
 
 namespace Creational.Prototype;
 

@@ -1,4 +1,4 @@
-﻿using Creational.Factory.DesignPatterns;
+﻿using Creational.Factory.DesignPattern;
 
 namespace Creational.Factory;
 
