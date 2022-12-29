@@ -1,5 +1,7 @@
 ﻿using Creational.Factory.DesignPatterns;
 
+namespace Creational.Factory;
+
 sealed class Program
 {
     public static void Main()
