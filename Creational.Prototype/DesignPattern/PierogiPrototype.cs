@@ -1,6 +1,6 @@
 ﻿using Creational.Prototype.Model;
 
-namespace Creational.Prototype.DesignPatters;
+namespace Creational.Prototype.DesignPattern;
 
 public interface IPierogiPrototype
 {

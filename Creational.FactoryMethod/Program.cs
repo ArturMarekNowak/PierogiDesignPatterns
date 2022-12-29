@@ -1,6 +1,8 @@
-﻿using Creational.FactoryMethod.DesignPatterns;
+﻿using Creational.Factory.DesignPattern;
 
-class Program
+namespace Creational.Factory;
+
+sealed class Program
 {
     public static void Main()
     {

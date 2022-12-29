@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Creational.Factory.Model;
+namespace Creational.Builder.Model;
 
 public enum PierogiTypes
 {

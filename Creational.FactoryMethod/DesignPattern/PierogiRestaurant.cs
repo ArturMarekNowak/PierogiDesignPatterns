@@ -1,7 +1,7 @@
-﻿using Creational.FactoryMethod.Interface;
-using Creational.FactoryMethod.Model;
+﻿using Creational.Factory.Interfaces;
+using Creational.Factory.Model;
 
-namespace Creational.FactoryMethod.DesignPatterns;
+namespace Creational.Factory.DesignPattern;
 
 public abstract class PierogiRestaurant
 {

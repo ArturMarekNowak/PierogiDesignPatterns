@@ -1,6 +1,6 @@
-﻿using Creational.FactoryMethod.Model;
+﻿using Creational.Factory.Model;
 
-namespace Creational.FactoryMethod.Interface;
+namespace Creational.Factory.Interfaces;
 
 public interface IPierogi
 {
