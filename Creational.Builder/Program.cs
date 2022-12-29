@@ -7,8 +7,8 @@ sealed class Program
     public static void Main()
     {
         var pierogiRestaurant = new PierogiRestaurant();
-        var pierogiWithMeatBuilder = new PierogiWithMeatCook();
-        pierogiRestaurant.Serve(pierogiWithMeatBuilder);
-        Console.WriteLine(pierogiWithMeatBuilder.Cook());
+        var pierogiWithMeatCook = new PierogiWithMeatCook();
+        pierogiRestaurant.Serve(pierogiWithMeatCook);
+        Console.WriteLine(pierogiWithMeatCook.Cook());
     }
 }
