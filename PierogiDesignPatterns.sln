@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Prototype", "Cre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.FactoryMethod", "Creational.FactoryMethod\Creational.FactoryMethod.csproj", "{754E3FAA-879E-479A-A9C3-BF795747A273}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Builder", "Creational.Builder\Creational.Builder.csproj", "{6D7F655E-8430-4278-A7F5-10638FD03DF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{754E3FAA-879E-479A-A9C3-BF795747A273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754E3FAA-879E-479A-A9C3-BF795747A273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754E3FAA-879E-479A-A9C3-BF795747A273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7F655E-8430-4278-A7F5-10638FD03DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7F655E-8430-4278-A7F5-10638FD03DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7F655E-8430-4278-A7F5-10638FD03DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7F655E-8430-4278-A7F5-10638FD03DF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
