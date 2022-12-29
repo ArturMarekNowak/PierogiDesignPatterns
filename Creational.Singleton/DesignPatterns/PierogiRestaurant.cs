@@ -1,7 +1,7 @@
 using Creational.Singleton.Interfaces;
 using Creational.Singleton.Model;
 
-namespace Creational.Singleton.DesignPatters;
+namespace Creational.Singleton.DesignPatterns;
 
 public sealed class PierogiRestaurant : IPierogi
 {
