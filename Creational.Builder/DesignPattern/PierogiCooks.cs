@@ -18,7 +18,7 @@ public class PierogiWithMeatCook : IPierogiBuilder
 
     public void SetPierogiType()
     {
-        pierogiInstance.Type = PierogiTypes.WithMeat;
+        pierogiInstance.Type = PierogiType.WithMeat;
     }
     
     public Pierogi Cook()
@@ -43,7 +43,7 @@ public class PierogiWithFruitsCook : IPierogiBuilder
 
     public void SetPierogiType()
     {
-        pierogiInstance.Type = PierogiTypes.WithStrawberries;
+        pierogiInstance.Type = PierogiType.WithStrawberries;
     }
     
     public Pierogi Cook()
@@ -68,7 +68,7 @@ public class PierogiWithoutMeatCook : IPierogiBuilder
 
     public void SetPierogiType()
     {
-        pierogiInstance.Type = PierogiTypes.WithCabbage;
+        pierogiInstance.Type = PierogiType.WithCabbage;
     }
     
     public Pierogi Cook()

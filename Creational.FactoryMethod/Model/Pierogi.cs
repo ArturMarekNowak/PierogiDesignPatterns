@@ -6,13 +6,13 @@ public sealed class PierogiWithPotatoesAndCheese : IPierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithPotatoesAndCheese(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithPotatoesAndCheese;
+        Type = PierogiType.WithPotatoesAndCheese;
     }
     
     public override string ToString()
@@ -25,13 +25,13 @@ public sealed class PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup : I
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup;
+        Type = PierogiType.WithPotatoesAndCheeseButAlsoWithYoghurtAndKetchup;
     }
 
     public override string ToString()
@@ -44,13 +44,13 @@ public sealed class PierogiWithStrawberries : IPierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithStrawberries(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithStrawberries;
+        Type = PierogiType.WithStrawberries;
     }
     
     public override string ToString()
@@ -63,13 +63,13 @@ public sealed class PierogiWithMeat : IPierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithMeat(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithMeat;
+        Type = PierogiType.WithMeat;
     }
 
     public override string ToString()
@@ -82,13 +82,13 @@ public sealed class PierogiWithGroat : IPierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithGroat(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithGroat;
+        Type = PierogiType.WithGroat;
     }
     
     public override string ToString()
@@ -101,13 +101,13 @@ public sealed class PierogiWithCabbage : IPierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithCabbage(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithCabbage;
+        Type = PierogiType.WithCabbage;
     }
 
     public override string ToString()
@@ -120,13 +120,13 @@ public sealed class PierogiWithBlueberries : IPierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
     
     public PierogiWithBlueberries(int count)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithBlueberries;
+        Type = PierogiType.WithBlueberries;
     }
     
     public override string ToString()

@@ -4,7 +4,7 @@ public sealed class Pierogi
 {
     public Guid Guid { get; }
     public int Count { get; set; }
-    public PierogiTypes Type { get; set; }
+    public PierogiType Type { get; set; }
 
     public Pierogi()
     {
