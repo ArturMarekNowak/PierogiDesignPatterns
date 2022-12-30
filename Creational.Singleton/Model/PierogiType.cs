@@ -2,7 +2,7 @@
 
 namespace Creational.Singleton.Model;
 
-public enum PierogiTypes
+public enum PierogiType
 {
     [Description("with potatoes and cheese")]
     WithPotatoesAndCheese,

@@ -9,13 +9,13 @@ public class PierogiWithCabbage : VegeterianDish
 {
     public Guid Guid { get; }
     public int Count { get; }
-    public PierogiTypes Type { get; }
+    public PierogiType Type { get; }
 
     public PierogiWithCabbage(int count, bool isOvepriced)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithCabbage;
+        Type = PierogiType.WithCabbage;
         IsOverpriced = isOvepriced;
     }
 

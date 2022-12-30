@@ -9,13 +9,13 @@ public class PierogiWithMeat : DishWithMeat
 {
     public Guid Guid { get; }
     public int Count { get; }
-    public PierogiTypes Type { get; }
+    public PierogiType Type { get; }
 
     public PierogiWithMeat(int count, MeatType meatType)
     {
         Guid = Guid.NewGuid();
         Count = count;
-        Type = PierogiTypes.WithMeat;
+        Type = PierogiType.WithMeat;
         MeatType = meatType;
     }
 

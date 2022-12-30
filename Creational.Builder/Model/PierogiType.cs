@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel;
 
-namespace Creational.Factory.Model;
+namespace Creational.Builder.Model;
 
-public enum PierogiTypes
+public enum PierogiType
 {
     [Description("with potatoes and cheese")]
     WithPotatoesAndCheese,
