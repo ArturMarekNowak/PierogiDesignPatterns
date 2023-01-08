@@ -10,8 +10,13 @@ class Program
         var pierogiWithBlueberries = new PierogiWithBlueberries();
         var bigPierogiRestaurant = new BigPierogiRestaurant(pierogiWithBlueberries);
         Console.WriteLine(bigPierogiRestaurant.ServePierogi());
+        
         var pierogiWithStrawberries = new PierogiWithStrawberries();
         bigPierogiRestaurant = new BigPierogiRestaurant(pierogiWithStrawberries);
         Console.WriteLine(bigPierogiRestaurant.ServePierogi());
+
+        var pierogiRestaurant = new PierogiRestaurant(pierogiWithStrawberries);
+        Console.WriteLine(pierogiRestaurant.ServePierogi());
+        
     }
 }
