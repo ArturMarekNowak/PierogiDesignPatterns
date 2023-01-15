@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Adapter", "Struc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor", "Behavioral.Visitor\Behavioral.Visitor.csproj", "{5A471F6A-74E9-46FB-8A5F-BECD6E6AD2AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.TemplateMethod", "Behavioral.TemplateMethod\Behavioral.TemplateMethod.csproj", "{7E7C7482-8B5D-4CF0-AADD-A46665B29580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{5A471F6A-74E9-46FB-8A5F-BECD6E6AD2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A471F6A-74E9-46FB-8A5F-BECD6E6AD2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A471F6A-74E9-46FB-8A5F-BECD6E6AD2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7C7482-8B5D-4CF0-AADD-A46665B29580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7C7482-8B5D-4CF0-AADD-A46665B29580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7C7482-8B5D-4CF0-AADD-A46665B29580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7C7482-8B5D-4CF0-AADD-A46665B29580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
