@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Interpreter", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Command", "Behavioral.Command\Behavioral.Command.csproj", "{4785F3BE-16B9-42F9-99E2-B77E366E4445}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility", "Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.csproj", "{94AA86D5-2915-445F-BFF1-5FC00AC6E803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,5 +140,9 @@ Global
 		{4785F3BE-16B9-42F9-99E2-B77E366E4445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4785F3BE-16B9-42F9-99E2-B77E366E4445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4785F3BE-16B9-42F9-99E2-B77E366E4445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AA86D5-2915-445F-BFF1-5FC00AC6E803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AA86D5-2915-445F-BFF1-5FC00AC6E803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AA86D5-2915-445F-BFF1-5FC00AC6E803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AA86D5-2915-445F-BFF1-5FC00AC6E803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
