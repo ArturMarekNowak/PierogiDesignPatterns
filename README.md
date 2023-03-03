@@ -1,4 +1,8 @@
 # Pierogi Design Patterns
+
+![Build](https://github.com/ArturMarekNowak/Pierogi-Design-Patterns/actions/workflows/workflow.yml/badge.svg)
+![CodeFactor](https://www.codefactor.io/repository/github/arturmareknowak/pierogi-design-patterns/badge)
+
 This repository contains implementations design patterns and uses preparement of polish traditional dish - pierogi, as an example.
 
 
@@ -29,7 +33,7 @@ I am making sure that `dotnet build` is all that you need to make everything wor
 
 
 ## Status
-Project is: _in_progress_
+Project is: _finished_
 
 
 ## Inspiration
