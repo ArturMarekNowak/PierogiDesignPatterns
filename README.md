@@ -6,10 +6,10 @@
 This repository contains implementations design patterns and uses preparement of polish traditional dish - pierogi, as an example.
 
 
-| Good :heavy_check_mark:       | Bad :x:          |
-| :-----------: |:-------------:|
-| <img src=".pictures/20230204_111449.jpg" width="500" height="400"> | <img src=".pictures/328209449_699490315224258_2288184622982307564_n.jpg" width="500" height="250"> |
-| An example of a good design pattern. Source: Own materials | An example of an anti-pattern. Courtesy of [Voprzybyo](https://github.com/Voprzybyo) |
+|                    Good :heavy_check_mark:                    |                                            Bad :x:                                            |
+|:-------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+| <img src="docs/20230204_111449.jpg" width="350" height="275"> | <img src="docs/328209449_699490315224258_2288184622982307564_n.jpg" width="500" height="250"> |
+|  An example of a good design pattern. Source: Own materials   |     An example of an anti-pattern. Courtesy of [Voprzybyo](https://github.com/Voprzybyo)      |
 
 ## Table of contents
 * [General info](#general-info)
@@ -24,7 +24,7 @@ Repository is structured as a solution containing multiple projects. Each projec
 
 
 ## Technologies
-* .NET 6
+* .NET 8
 * Jetbrains Rider 
 
 
